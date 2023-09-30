@@ -1,0 +1,155 @@
+baseURL = "/"
+title = "Energy Bridge"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = 'Energy Bridge'
+description = '<img height="128" src="/images/logo.svg" alt="Logo"/> <br/>Unlocking global potential in oil and gas production through expert consulting, optimization, and sourcing excellence.'
+startbuttonText = "Drill Down"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+images = ["/images/logo.svg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+#url = '/services/'
+url = '#'
+title = "Services"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Unlocking global potential in oil and gas production through expert consulting, optimization, and sourcing excellence.'
+body = '''
+At Energy Bridge, we don't just consult; we innovate. We don't just advise; we execute. We are the fuel that drives your oil and gas ambitions towards unparalleled success. Reach out us in reshaping the future of energy production. Your journey to excellence starts here.
+'''
+
+[[params.one.icon]]
+icon = "solid fa-oil-well"
+style = "1"
+label = "Expertise"
+
+[[params.one.icon]]
+icon = "solid fa-wrench"
+style = "1"
+label = "Logistics"
+
+[[params.one.icon]]
+icon = "solid fa-helmet-safety"
+style = "1"
+label = "Safety"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/eb/03.jpg"
+img_alt = "blurry background: white/grey"
+title = 'A Global Reach, A Local Touch'
+body = 'Though we operate on a global scale, we cherish the value of personal connections. Our consultants approach every project with a local touch, understanding the unique challenges and opportunities that each region presents. This global-local synergy is what sets us apart and guarantees results.'
+
+[[params.two.section]]
+img = "images/eb/04.jpg"
+title = 'Navigating the Downstream with Finesse'
+body = 'Downstream operations are the lifeblood of the oil and gas industry. With our guidance, your downstream endeavors will run like a symphony. From refining to distribution, we orchestrate strategies that enhance reliability, increase efficiency, and reduce operational risks. Your success is our commitment.'
+
+[[params.two.section]]
+img = "images/eb/05.jpg"
+title = 'Unlocking Efficiency, Maximizing Potential'
+body = '''
+In the intricate realm of oil and gas production, every element counts. That's where we come in. Our specialized consulting services are meticulously designed to optimize production, ensuring that every drop of valuable resource is harnessed efficiently. We're not just about maintaining the status quo; we're about pushing boundaries and setting new industry standards.
+'''
+
+[params.three]
+img = "images/eb/05.jpg"
+enable = true
+title = 'Sourcing Excellence, Delivering Quality'
+body = '''
+In an industry where precision is paramount, the quality of materials and spare parts can make or break an operation. Our network spans the globe, allowing us to source the finest materials and components. We leave no stone unturned to ensure that your equipment and processes are fortified with excellence.
+'''
+
+[[params.three.feature]]
+icon = "solid fa-oil-well"
+title = "Strategic Excellence, Operational Mastery"
+body = "In the ever-evolving landscape of the oil and gas industry, strategy and operations are intertwined. We bring together strategic brilliance and operational mastery to drive your enterprise towards unprecedented success."
+
+[[params.three.feature]]
+icon = "solid fa-helmet-safety"
+title = "Safety, Sustainability, Success"
+body = "Safety isn't just a priority; it's our culture. We're committed to sustainable practices that not only protect our environment but also ensure your long-term success in a dynamic industry."
+
+[[params.three.feature]]
+icon = "solid fa-microscope"
+title = "Innovation Unleashed"
+body = "At Energy Bridge, innovation isn't an option; it's our DNA. We harness cutting-edge technology and forward-thinking solutions to future-proof your operations and position you as an industry leader.."
+
+[[params.three.feature]]
+icon = "solid fa-screwdriver-wrench"
+title = "Proactive Problem Solvers"
+body = "We don't wait for problems to arise; we anticipate them. Our team of proactive problem solvers identifies potential bottlenecks and challenges before they impact your operations, ensuring uninterrupted progress."
+
+[[params.three.feature]]
+icon = "solid fa-square-poll-vertical"
+title = "Measuring Success, Delivering Results"
+body = "Success is not a vague concept at [Company Name]. We measure it, track it, and deliver it. Our performance metrics and KPI-driven approach ensure that our clients see tangible, measurable results."
+
+[[params.three.feature]]
+icon = "solid fa-plane-departure"
+title = "Your Partner for the Long Haul"
+body = "Our commitment doesn't end with consultancy. We forge enduring partnerships with our clients, providing ongoing support, guidance, and expertise. We're not just here for the short-term; we're here to help you thrive in the long run."
+
+[params.cta]
+enable = true
+title = "Unlocking Efficiency, Maximizing Potential"
+body = "In the intricate realm of oil and gas production, every element counts. That's where we come in. Our specialized consulting services are meticulously designed to optimize production, ensuring that every drop of valuable resource is harnessed efficiently. We're not just about maintaining the status quo; we're about pushing boundaries and setting new industry standards."
+
+[[params.cta.link]]
+href = "#"
+text = "Explore"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+55 (0) 62 8499 2971"
+address = "1234 Hani Road<br />Tripoli, <br />Libya"
+email = "info@energybridge.ly"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+facebook = ""
+youtube = ""
+instagram = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
