@@ -1,0 +1,50 @@
+{{ $md := .Site.Params.body_is_markdown | default false }}
+
+{{ with .Site.Params.contact }}
+{{ if .enable }}
+<section id="contact" class="wrapper style5">
+  <div class="inner">
+    <section id="contact">
+        <h2>Contact Us and Fuel Your Future!</h2>
+        <p>
+            Ready to take your oil and gas endeavors to the next level? We're thrilled to connect with you. Whether you have questions, need expert guidance, or want to discuss potential collaborations, we're just a message or call away from turning your ambitions into reality.
+        </p>
+        <p>
+            Send us an email at <strong><a href="mailto:info@energybridge.ly">info@energybridge.ly</a> </strong>to initiate a conversation that could shape your future in the industry. Our responsive team is dedicated to providing prompt and comprehensive responses to your inquiries. No question is too big or detail too small – we're here to assist you every step of the way.
+        </p>
+        <p>
+            Prefer a more direct approach? Call us at <strong><a href="tel:+218912188030">+218 (0) 91 218 8030</a> </strong>and let's dive into the possibilities together. Our knowledgeable experts are eager to hear from you and offer solutions tailored to your unique needs.
+        </p>
+        <p>
+            At Energy Bridge, we thrive on collaboration and are passionate about driving success in the oil and gas sector. Your journey towards excellence starts with a simple message or call. Reach out today, and let's ignite your future in energy production!
+        </p>
+        <p>
+        <strong>Email:</strong> <a href="mailto:info@energybridge.ly">info@energybridge.ly</a><br>
+            <strong>Phone:</strong> <a href="tel:+218912188030">+218 (0) 91 218 8030</a></a>
+            <strong>Phone:</strong> <a href="tel:+218912185775">+218 (0) 91 218 5775</a></a>
+        </p>
+    </section>
+   <!--  <form method="post" action="https://formspree.io/f/{{ .formspree_form_id }}">
+      <div class="row gtr-uniform">
+        <input type="hidden" name="subject" value="{{ .subject }}" />
+        <div class="col-6 col-12-xsmall">
+          <input type="text" name="name" id="name" value="" placeholder="{{ i18n "name" }}" required />
+        </div>
+        <div class="col-6 col-12-xsmall">
+          <input type="email" name="email" id="email" value="" placeholder="{{ i18n "email" }}" required />
+        </div>
+        <div class="col-12">
+          <textarea name="message" id="message" placeholder="{{ i18n "yourmessage" }}" rows="6" required></textarea>
+        </div>
+        <div class="col-12">
+          <ul class="actions">
+            <li><input type="submit" value="{{ i18n "send" }}" class="primary" /></li>
+            <li><input type="reset" value="{{ i18n "reset" }}" /></li>
+          </ul>
+        </div>
+      </div>
+    </form> -->
+  </div>
+</section>
+{{ end }}
+{{ end }}

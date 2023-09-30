@@ -6,8 +6,8 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = 'Energy Bridge'
-description = '<img height="128" src="/images/logo.svg" alt="Logo"/> <br/>Unlocking global potential in oil and gas production through expert consulting, optimization, and sourcing excellence.'
+fancyTitle = 'Energy Bridge <br/><img height="128" src="/images/logo.svg" alt="Logo"/>'
+description = 'Unlocking global potential in oil and gas production through expert consulting, optimization, and sourcing excellence.'
 startbuttonText = "Drill Down"
 startbuttonLink = "#"
 body_is_markdown = true
@@ -102,7 +102,7 @@ body = "We don't wait for problems to arise; we anticipate them. Our team of pro
 [[params.three.feature]]
 icon = "solid fa-square-poll-vertical"
 title = "Measuring Success, Delivering Results"
-body = "Success is not a vague concept at [Company Name]. We measure it, track it, and deliver it. Our performance metrics and KPI-driven approach ensure that our clients see tangible, measurable results."
+body = "Success is not a vague concept at Energy Bridge. We measure it, track it, and deliver it. Our performance metrics and KPI-driven approach ensure that our clients see tangible, measurable results."
 
 [[params.three.feature]]
 icon = "solid fa-plane-departure"
@@ -128,8 +128,9 @@ special = false
 enable = true
 title = "Contact"
 body = "Leave us a message."
-phone = "+55 (0) 62 8499 2971"
-address = "1234 Hani Road<br />Tripoli, <br />Libya"
+# phone = "+55 (0) 62 8499 2971"
+phone = "+218 (0) 91 218 8030"
+address = "Al Serraj<br />Tripoli, <br />Libya"
 email = "info@energybridge.ly"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
@@ -146,10 +147,6 @@ instagram = ""
 weight = 0
 languageName = "English"
 
-[languages.de]
-weight = 10
-languageName = "Deutsch"
-
-[languages.es]
-weight = 10
-languageName = "Español"
+#[languages.de]
+#weight = 10
+#languageName = "Deutsch"
